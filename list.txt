@@ -1,0 +1,4 @@
+nebula materials -- DONE
+TODO: add nebula armor and tools
+TODO: add crafting recipes
+TODO: generate models
