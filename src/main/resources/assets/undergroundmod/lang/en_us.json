@@ -34,6 +34,11 @@
   "item.undergroundmod.solar_shovel" : "Solar Shovel",
   "item.undergroundmod.solar_sword" : "Solar Sword",
   "item.undergroundmod.solar_hoe" : "Solar Hoe",
+  "item.undergroundmod.nebula_pickaxe" : "Nebula Pickaxe",
+  "item.undergroundmod.nebula_axe" : "Nebula Axe",
+  "item.undergroundmod.nebula_shovel" : "Nebula Shovel",
+  "item.undergroundmod.nebula_sword" : "Nebula Sword",
+  "item.undergroundmod.nebula_hoe" : "Nebula Hoe",
 
 
   "item.undergroundmod.chlorophyte_helmet" : "Chlorophyte Helmet",
@@ -52,6 +57,10 @@
   "item.undergroundmod.solar_chestplate" : "Solar Chestplate",
   "item.undergroundmod.solar_leggings" : "Solar Leggings",
   "item.undergroundmod.solar_boots" : "Solar Boots",
+  "item.undergroundmod.nebula_helmet" : "Nebula Helmet",
+  "item.undergroundmod.nebula_chestplate" : "Nebula Chestplate",
+  "item.undergroundmod.nebula_leggings" : "Nebula Leggings",
+  "item.undergroundmod.nebula_boots" : "Nebula Boots",
 
   "block.undergroundmod.chlorophyte_block" : "Block of Chlorophyte",
   "block.undergroundmod.shroomite_block" : "Block of Shroomite",

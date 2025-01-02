@@ -67,6 +67,16 @@ public class ModItems {
             new ShovelItem(ModToolMaterial.SOLAR, 3, -2.6f, new FabricItemSettings()));
     public static final Item SOLAR_HOE = registerItem("solar_hoe",
             new HoeItem(ModToolMaterial.SOLAR, -2, 0.4f, new FabricItemSettings()));
+    public static final Item NEBULA_PICKAXE = registerItem("nebula_pickaxe",
+            new PickaxeItem(ModToolMaterial.NEBULA, 3, -2.4f, new FabricItemSettings()));
+    public static final Item NEBULA_AXE = registerItem("nebula_axe",
+            new AxeItem(ModToolMaterial.NEBULA, 7.0f, -2.6f, new FabricItemSettings()));
+    public static final Item NEBULA_SWORD = registerItem("nebula_sword",
+            new SwordItem(ModToolMaterial.NEBULA, 4, -2.0f, new FabricItemSettings()));
+    public static final Item NEBULA_SHOVEL = registerItem("nebula_shovel",
+            new ShovelItem(ModToolMaterial.NEBULA, 3, -2.6f, new FabricItemSettings()));
+    public static final Item NEBULA_HOE = registerItem("nebula_hoe",
+            new HoeItem(ModToolMaterial.NEBULA, -2, 0.4f, new FabricItemSettings()));
 
     public static final Item CHLOROPHYTE_HELMET = registerItem("chlorophyte_helmet",
             new ArmorItem(ModArmorMaterials.CHLOROPHYTE, ArmorItem.Type.HELMET, new FabricItemSettings()));
@@ -92,6 +102,14 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.SOLAR, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item SOLAR_BOOTS = registerItem("solar_boots",
             new ArmorItem(ModArmorMaterials.SOLAR, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+    public static final Item NEBULA_HELMET = registerItem("nebula_helmet",
+            new ArmorItem(ModArmorMaterials.NEBULA, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item NEBULA_CHESTPLATE = registerItem("nebula_chestplate",
+            new ArmorItem(ModArmorMaterials.NEBULA, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item NEBULA_LEGGINGS = registerItem("nebula_leggings",
+            new ArmorItem(ModArmorMaterials.NEBULA, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item NEBULA_BOOTS = registerItem("nebula_boots",
+            new ArmorItem(ModArmorMaterials.NEBULA, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(STINGER);

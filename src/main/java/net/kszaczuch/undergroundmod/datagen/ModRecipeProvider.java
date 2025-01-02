@@ -491,5 +491,106 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.LUMINITE_HOE), conditionsFromItem(ModItems.LUMINITE_HOE))
                 .criterion(hasItem(ModItems.SOLAR_FRAGMENT), conditionsFromItem(ModItems.SOLAR_FRAGMENT))
                 .offerTo(consumer, new Identifier(getRecipeName(ModItems.SOLAR_HOE)));
+
+
+        SmithingTransformRecipeJsonBuilder.create(
+                Ingredient.ofItems(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE ),
+                Ingredient.ofItems(ModItems.LUMINITE_HELMET),
+                Ingredient.ofItems(ModItems.NEBULA_FRAGMENT),
+                RecipeCategory.MISC,
+                ModItems.NEBULA_HELMET
+        ).criterion(hasItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE))
+                .criterion(hasItem(ModItems.LUMINITE_HELMET), conditionsFromItem(ModItems.LUMINITE_HELMET))
+                .criterion(hasItem(ModItems.NEBULA_FRAGMENT), conditionsFromItem(ModItems.NEBULA_FRAGMENT))
+                .offerTo(consumer, new Identifier(getRecipeName(ModItems.NEBULA_HELMET)));
+
+        SmithingTransformRecipeJsonBuilder.create(
+                Ingredient.ofItems(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE),
+                Ingredient.ofItems(ModItems.LUMINITE_CHESTPLATE),
+                Ingredient.ofItems(ModItems.NEBULA_FRAGMENT),
+                RecipeCategory.MISC,
+                ModItems.NEBULA_CHESTPLATE
+        ).criterion(hasItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE))
+                .criterion(hasItem(ModItems.LUMINITE_CHESTPLATE), conditionsFromItem(ModItems.LUMINITE_CHESTPLATE))
+                .criterion(hasItem(ModItems.NEBULA_FRAGMENT), conditionsFromItem(ModItems.NEBULA_FRAGMENT))
+                .offerTo(consumer, new Identifier(getRecipeName(ModItems.NEBULA_CHESTPLATE)));
+
+        SmithingTransformRecipeJsonBuilder.create(
+                Ingredient.ofItems(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE),
+                Ingredient.ofItems(ModItems.LUMINITE_LEGGINGS),
+                Ingredient.ofItems(ModItems.NEBULA_FRAGMENT),
+                RecipeCategory.MISC,
+                ModItems.NEBULA_LEGGINGS
+        ).criterion(hasItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE))
+                .criterion(hasItem(ModItems.LUMINITE_LEGGINGS), conditionsFromItem(ModItems.LUMINITE_LEGGINGS))
+                .criterion(hasItem(ModItems.NEBULA_FRAGMENT), conditionsFromItem(ModItems.NEBULA_FRAGMENT))
+                .offerTo(consumer, new Identifier(getRecipeName(ModItems.NEBULA_LEGGINGS)));
+
+        SmithingTransformRecipeJsonBuilder.create(
+                Ingredient.ofItems(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE),
+                Ingredient.ofItems(ModItems.LUMINITE_BOOTS),
+                Ingredient.ofItems(ModItems.NEBULA_FRAGMENT),
+                RecipeCategory.MISC,
+                ModItems.NEBULA_BOOTS
+        ).criterion(hasItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE))
+                .criterion(hasItem(ModItems.LUMINITE_BOOTS), conditionsFromItem(ModItems.LUMINITE_BOOTS))
+                .criterion(hasItem(ModItems.NEBULA_FRAGMENT), conditionsFromItem(ModItems.NEBULA_FRAGMENT))
+                .offerTo(consumer, new Identifier(getRecipeName(ModItems.NEBULA_BOOTS)));
+
+
+        SmithingTransformRecipeJsonBuilder.create(
+                Ingredient.ofItems(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE),
+                Ingredient.ofItems(ModItems.LUMINITE_AXE),
+                Ingredient.ofItems(ModItems.NEBULA_FRAGMENT),
+                RecipeCategory.MISC,
+                ModItems.NEBULA_AXE
+        ).criterion(hasItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE))
+                .criterion(hasItem(ModItems.LUMINITE_AXE), conditionsFromItem(ModItems.LUMINITE_AXE))
+                .criterion(hasItem(ModItems.NEBULA_FRAGMENT), conditionsFromItem(ModItems.NEBULA_FRAGMENT))
+                .offerTo(consumer, new Identifier(getRecipeName(ModItems.NEBULA_AXE)));
+
+        SmithingTransformRecipeJsonBuilder.create(
+                Ingredient.ofItems(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE),
+                Ingredient.ofItems(ModItems.LUMINITE_SWORD),
+                Ingredient.ofItems(ModItems.NEBULA_FRAGMENT),
+                RecipeCategory.MISC,
+                ModItems.NEBULA_SWORD
+        ).criterion(hasItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE))
+                .criterion(hasItem(ModItems.LUMINITE_SWORD), conditionsFromItem(ModItems.LUMINITE_SWORD))
+                .criterion(hasItem(ModItems.NEBULA_FRAGMENT), conditionsFromItem(ModItems.NEBULA_FRAGMENT ))
+                .offerTo(consumer, new Identifier(getRecipeName(ModItems.NEBULA_SWORD)));
+
+        SmithingTransformRecipeJsonBuilder.create(
+                Ingredient.ofItems(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE),
+                Ingredient.ofItems(ModItems.LUMINITE_SHOVEL),
+                Ingredient.ofItems(ModItems.NEBULA_FRAGMENT),
+                RecipeCategory.MISC,
+                ModItems.NEBULA_SHOVEL
+        ).criterion(hasItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE))
+                .criterion(hasItem(ModItems.LUMINITE_SHOVEL), conditionsFromItem(ModItems.LUMINITE_SHOVEL))
+                .criterion(hasItem(ModItems.NEBULA_FRAGMENT), conditionsFromItem(ModItems.NEBULA_FRAGMENT))
+                .offerTo(consumer, new Identifier(getRecipeName(ModItems.NEBULA_SHOVEL)));
+
+        SmithingTransformRecipeJsonBuilder.create(
+                Ingredient.ofItems(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE),
+                Ingredient.ofItems(ModItems.LUMINITE_PICKAXE),
+                Ingredient.ofItems(ModItems.NEBULA_FRAGMENT),
+                RecipeCategory.MISC,
+                ModItems.NEBULA_PICKAXE
+        ).criterion(hasItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE))
+                .criterion(hasItem(ModItems.LUMINITE_PICKAXE), conditionsFromItem(ModItems.LUMINITE_PICKAXE))
+                .criterion(hasItem(ModItems.NEBULA_FRAGMENT), conditionsFromItem(ModItems.NEBULA_FRAGMENT))
+                .offerTo(consumer, new Identifier(getRecipeName(ModItems.NEBULA_PICKAXE)));
+
+        SmithingTransformRecipeJsonBuilder.create(
+                Ingredient.ofItems(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE),
+                Ingredient.ofItems(ModItems.LUMINITE_HOE),
+                Ingredient.ofItems(ModItems.NEBULA_FRAGMENT),
+                RecipeCategory.MISC,
+                ModItems.NEBULA_HOE
+        ).criterion(hasItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE))
+                .criterion(hasItem(ModItems.LUMINITE_HOE), conditionsFromItem(ModItems.LUMINITE_HOE))
+                .criterion(hasItem(ModItems.NEBULA_FRAGMENT), conditionsFromItem(ModItems.NEBULA_FRAGMENT))
+                .offerTo(consumer, new Identifier(getRecipeName(ModItems.NEBULA_HOE)));
     }
 }

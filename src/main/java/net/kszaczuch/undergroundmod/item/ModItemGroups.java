@@ -70,6 +70,10 @@ public class ModItemGroups {
                         entries.add(ModItems.SOLAR_SHOVEL);
                         entries.add(ModItems.SOLAR_AXE);
                         entries.add(ModItems.SOLAR_HOE);
+                        entries.add(ModItems.NEBULA_PICKAXE);
+                        entries.add(ModItems.NEBULA_SHOVEL);
+                        entries.add(ModItems.NEBULA_AXE);
+                        entries.add(ModItems.NEBULA_HOE);
 
                     })).build());
 
@@ -102,6 +106,12 @@ public class ModItemGroups {
                         entries.add(ModItems.SOLAR_CHESTPLATE);
                         entries.add(ModItems.SOLAR_LEGGINGS);
                         entries.add(ModItems.SOLAR_BOOTS);
+                        entries.add(ModItems.NEBULA_SWORD);
+                        entries.add(ModItems.NEBULA_AXE);
+                        entries.add(ModItems.NEBULA_HELMET);
+                        entries.add(ModItems.NEBULA_CHESTPLATE);
+                        entries.add(ModItems.NEBULA_LEGGINGS);
+                        entries.add(ModItems.NEBULA_BOOTS);
 
 
                     })).build());

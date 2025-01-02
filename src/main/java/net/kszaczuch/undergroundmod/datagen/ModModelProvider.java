@@ -65,6 +65,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SOLAR_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.SOLAR_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.SOLAR_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.NEBULA_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.NEBULA_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.NEBULA_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.NEBULA_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.NEBULA_HOE, Models.HANDHELD);
 
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.CHLOROPHYTE_HELMET));
@@ -79,5 +84,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.SOLAR_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.SOLAR_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.SOLAR_BOOTS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.NEBULA_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.NEBULA_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.NEBULA_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.NEBULA_BOOTS));
     }
 }

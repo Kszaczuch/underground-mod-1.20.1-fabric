@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "undergroundmod:nebula_fragment"
+  },
+  "base": {
+    "item": "undergroundmod:luminite_boots"
+  },
+  "result": {
+    "item": "undergroundmod:nebula_boots"
+  },
+  "template": {
+    "item": "undergroundmod:luminite_upgrade_smithing_template"
+  }
+}

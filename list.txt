@@ -1,4 +1,5 @@
-nebula materials -- DONE
-TODO: add nebula armor and tools
+TODO: vortex materials
+TODO: add vortex armor and tools
 TODO: add crafting recipes
 TODO: generate models
+TODO: translate and add to item groups
