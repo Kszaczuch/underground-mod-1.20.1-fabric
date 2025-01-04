@@ -1,5 +1,5 @@
-TODO: vortex materials
-TODO: add vortex armor and tools
+TODO: stardust materials
+TODO: add stardust armor and tools
 TODO: add crafting recipes
 TODO: generate models
 TODO: translate and add to item groups

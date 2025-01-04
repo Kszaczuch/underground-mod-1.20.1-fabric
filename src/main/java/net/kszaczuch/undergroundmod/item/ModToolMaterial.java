@@ -14,6 +14,8 @@ public enum ModToolMaterial implements ToolMaterial {
     SOLAR(MiningLevels.NETHERITE, 3000, 14.0f, 8.0f, 10,
             () -> Ingredient.ofItems(ModItems.LUMINITE_INGOT)),
     NEBULA(MiningLevels.NETHERITE, 3250, 13.0f, 7.0f, 20,
+            () -> Ingredient.ofItems(ModItems.LUMINITE_INGOT)),
+    VORTEX(MiningLevels.NETHERITE, 3100, 16.0f, 7.0f, 15,
             () -> Ingredient.ofItems(ModItems.LUMINITE_INGOT))
     ;
 

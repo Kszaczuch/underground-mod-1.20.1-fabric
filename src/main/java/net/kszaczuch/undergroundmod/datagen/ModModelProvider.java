@@ -57,6 +57,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SHROOMITE_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.LUMINITE_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.LUMINITE_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.LUMINITE_BOW, Models.HANDHELD);
         itemModelGenerator.register(ModItems.LUMINITE_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.LUMINITE_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.LUMINITE_HOE, Models.HANDHELD);
@@ -70,6 +71,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.NEBULA_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.NEBULA_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.NEBULA_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.VORTEX_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.VORTEX_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.VORTEX_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.VORTEX_HOE, Models.HANDHELD);
 
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.CHLOROPHYTE_HELMET));
@@ -88,5 +93,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.NEBULA_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.NEBULA_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.NEBULA_BOOTS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.VORTEX_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.VORTEX_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.VORTEX_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.VORTEX_BOOTS));
     }
 }

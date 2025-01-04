@@ -31,6 +31,7 @@ public class ModItems {
     public static final Item LUMINITE_PICKAXE = registerItem("luminite_pickaxe", new Item(new FabricItemSettings()));
     public static final Item LUMINITE_SWORD = registerItem("luminite_sword", new Item(new FabricItemSettings()));
     public static final Item LUMINITE_HOE = registerItem("luminite_hoe", new Item(new FabricItemSettings()));
+    public static final Item LUMINITE_BOW = registerItem("luminite_bow", new Item(new FabricItemSettings()));
     public static final Item LUMINITE_SHOVEL = registerItem("luminite_shovel", new Item(new FabricItemSettings()));
     public static final Item LUMINITE_HELMET = registerItem("luminite_helmet", new Item(new FabricItemSettings()));
     public static final Item LUMINITE_CHESTPLATE = registerItem("luminite_chestplate", new Item(new FabricItemSettings()));
@@ -77,6 +78,16 @@ public class ModItems {
             new ShovelItem(ModToolMaterial.NEBULA, 3, -2.6f, new FabricItemSettings()));
     public static final Item NEBULA_HOE = registerItem("nebula_hoe",
             new HoeItem(ModToolMaterial.NEBULA, -2, 0.4f, new FabricItemSettings()));
+    public static final Item VORTEX_PICKAXE = registerItem("vortex_pickaxe",
+            new PickaxeItem(ModToolMaterial.VORTEX, 3, -2.4f, new FabricItemSettings()));
+    public static final Item VORTEX_AXE = registerItem("vortex_axe",
+            new AxeItem(ModToolMaterial.VORTEX, 7.0f, -2.6f, new FabricItemSettings()));
+    public static final Item VORTEX_BOW = registerItem("vortex_bow",
+            new BowItem(new Item.Settings().maxDamage(600)));
+    public static final Item VORTEX_SHOVEL = registerItem("vortex_shovel",
+            new ShovelItem(ModToolMaterial.VORTEX, 3, -2.6f, new FabricItemSettings()));
+    public static final Item VORTEX_HOE = registerItem("vortex_hoe",
+            new HoeItem(ModToolMaterial.VORTEX, -2, 0.4f, new FabricItemSettings()));
 
     public static final Item CHLOROPHYTE_HELMET = registerItem("chlorophyte_helmet",
             new ArmorItem(ModArmorMaterials.CHLOROPHYTE, ArmorItem.Type.HELMET, new FabricItemSettings()));
@@ -110,6 +121,14 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.NEBULA, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item NEBULA_BOOTS = registerItem("nebula_boots",
             new ArmorItem(ModArmorMaterials.NEBULA, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+    public static final Item VORTEX_HELMET = registerItem("vortex_helmet",
+            new ArmorItem(ModArmorMaterials.VORTEX, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item VORTEX_CHESTPLATE = registerItem("vortex_chestplate",
+            new ArmorItem(ModArmorMaterials.VORTEX, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item VORTEX_LEGGINGS = registerItem("vortex_leggings",
+            new ArmorItem(ModArmorMaterials.VORTEX, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item VORTEX_BOOTS = registerItem("vortex_boots",
+            new ArmorItem(ModArmorMaterials.VORTEX, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(STINGER);

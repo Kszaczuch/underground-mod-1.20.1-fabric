@@ -29,6 +29,7 @@
   "item.undergroundmod.luminite_shovel" : "Luminite Shovel Template",
   "item.undergroundmod.luminite_sword" : "Luminite Sword Template",
   "item.undergroundmod.luminite_hoe" : "Luminite Hoe Template",
+  "item.undergroundmod.luminite_bow" : "Luminite Bow Template",
   "item.undergroundmod.solar_pickaxe" : "Solar Pickaxe",
   "item.undergroundmod.solar_axe" : "Solar Axe",
   "item.undergroundmod.solar_shovel" : "Solar Shovel",
@@ -39,6 +40,11 @@
   "item.undergroundmod.nebula_shovel" : "Nebula Shovel",
   "item.undergroundmod.nebula_sword" : "Nebula Sword",
   "item.undergroundmod.nebula_hoe" : "Nebula Hoe",
+  "item.undergroundmod.vortex_pickaxe" : "Vortex Pickaxe",
+  "item.undergroundmod.vortex_axe" : "Vortex Axe",
+  "item.undergroundmod.vortex_shovel" : "Vortex Shovel",
+  "item.undergroundmod.vortex_bow" : "Vortex Bow",
+  "item.undergroundmod.vortex_hoe" : "Vortex Hoe",
 
 
   "item.undergroundmod.chlorophyte_helmet" : "Chlorophyte Helmet",
@@ -61,6 +67,10 @@
   "item.undergroundmod.nebula_chestplate" : "Nebula Chestplate",
   "item.undergroundmod.nebula_leggings" : "Nebula Leggings",
   "item.undergroundmod.nebula_boots" : "Nebula Boots",
+  "item.undergroundmod.vortex_helmet" : "Vortex Helmet",
+  "item.undergroundmod.vortex_chestplate" : "Vortex Chestplate",
+  "item.undergroundmod.vortex_leggings" : "Vortex Leggings",
+  "item.undergroundmod.vortex_boots" : "Vortex Boots",
 
   "block.undergroundmod.chlorophyte_block" : "Block of Chlorophyte",
   "block.undergroundmod.shroomite_block" : "Block of Shroomite",

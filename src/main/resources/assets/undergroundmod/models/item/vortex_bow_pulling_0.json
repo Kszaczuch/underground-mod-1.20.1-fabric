@@ -1,0 +1,6 @@
+{
+  "parent": "undergroundmod:item/vortex_bow",
+  "textures": {
+    "layer0": "undergroundmod:item/vortex_bow_pulling_0"
+  }
+}

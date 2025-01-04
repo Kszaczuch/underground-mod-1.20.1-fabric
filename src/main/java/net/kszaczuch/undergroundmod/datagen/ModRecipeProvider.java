@@ -258,6 +258,26 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.LUMINITE_INGOT), conditionsFromItem(ModItems.LUMINITE_INGOT))
                 .offerTo(consumer, new Identifier(getRecipeName(ModItems.LUMINITE_HOE)));
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LUMINITE_BOW, 1)
+                .pattern(" SR")
+                .pattern("S R")
+                .pattern(" SR")
+                .input('S', ModItems.LUMINITE_INGOT)
+                .input('R', Items.STRING)
+                .criterion(hasItem(Items.STRING), conditionsFromItem(Items.STRING))
+                .criterion(hasItem(ModItems.LUMINITE_INGOT), conditionsFromItem(ModItems.LUMINITE_INGOT))
+                .offerTo(consumer, new Identifier(getRecipeName(ModItems.LUMINITE_BOW)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LUMINITE_BOW, 1)
+                .pattern("RS ")
+                .pattern("R S")
+                .pattern("RS ")
+                .input('S', ModItems.LUMINITE_INGOT)
+                .input('R', Items.STRING)
+                .criterion(hasItem(Items.STRING), conditionsFromItem(Items.STRING))
+                .criterion(hasItem(ModItems.LUMINITE_INGOT), conditionsFromItem(ModItems.LUMINITE_INGOT))
+                .offerTo(consumer, new Identifier("luminite_bow_alt"));
+
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.LUMINITE_HELMET, 1)
                 .pattern("SSS")
@@ -592,5 +612,106 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.LUMINITE_HOE), conditionsFromItem(ModItems.LUMINITE_HOE))
                 .criterion(hasItem(ModItems.NEBULA_FRAGMENT), conditionsFromItem(ModItems.NEBULA_FRAGMENT))
                 .offerTo(consumer, new Identifier(getRecipeName(ModItems.NEBULA_HOE)));
+
+
+        SmithingTransformRecipeJsonBuilder.create(
+                Ingredient.ofItems(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE ),
+                Ingredient.ofItems(ModItems.LUMINITE_HELMET),
+                Ingredient.ofItems(ModItems.VORTEX_FRAGMENT),
+                RecipeCategory.MISC,
+                ModItems.VORTEX_HELMET
+        ).criterion(hasItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE))
+                .criterion(hasItem(ModItems.LUMINITE_HELMET), conditionsFromItem(ModItems.LUMINITE_HELMET))
+                .criterion(hasItem(ModItems.VORTEX_FRAGMENT), conditionsFromItem(ModItems.VORTEX_FRAGMENT))
+                .offerTo(consumer, new Identifier(getRecipeName(ModItems.VORTEX_HELMET)));
+
+        SmithingTransformRecipeJsonBuilder.create(
+                Ingredient.ofItems(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE),
+                Ingredient.ofItems(ModItems.LUMINITE_CHESTPLATE),
+                Ingredient.ofItems(ModItems.VORTEX_FRAGMENT),
+                RecipeCategory.MISC,
+                ModItems.VORTEX_CHESTPLATE
+        ).criterion(hasItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE))
+                .criterion(hasItem(ModItems.LUMINITE_CHESTPLATE), conditionsFromItem(ModItems.LUMINITE_CHESTPLATE))
+                .criterion(hasItem(ModItems.VORTEX_FRAGMENT), conditionsFromItem(ModItems.VORTEX_FRAGMENT))
+                .offerTo(consumer, new Identifier(getRecipeName(ModItems.VORTEX_CHESTPLATE)));
+
+        SmithingTransformRecipeJsonBuilder.create(
+                Ingredient.ofItems(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE),
+                Ingredient.ofItems(ModItems.LUMINITE_LEGGINGS),
+                Ingredient.ofItems(ModItems.VORTEX_FRAGMENT),
+                RecipeCategory.MISC,
+                ModItems.VORTEX_LEGGINGS
+        ).criterion(hasItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE))
+                .criterion(hasItem(ModItems.LUMINITE_LEGGINGS), conditionsFromItem(ModItems.LUMINITE_LEGGINGS))
+                .criterion(hasItem(ModItems.VORTEX_FRAGMENT), conditionsFromItem(ModItems.VORTEX_FRAGMENT))
+                .offerTo(consumer, new Identifier(getRecipeName(ModItems.VORTEX_LEGGINGS)));
+
+        SmithingTransformRecipeJsonBuilder.create(
+                Ingredient.ofItems(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE),
+                Ingredient.ofItems(ModItems.LUMINITE_BOOTS),
+                Ingredient.ofItems(ModItems.VORTEX_FRAGMENT),
+                RecipeCategory.MISC,
+                ModItems.VORTEX_BOOTS
+        ).criterion(hasItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE))
+                .criterion(hasItem(ModItems.LUMINITE_BOOTS), conditionsFromItem(ModItems.LUMINITE_BOOTS))
+                .criterion(hasItem(ModItems.VORTEX_FRAGMENT), conditionsFromItem(ModItems.VORTEX_FRAGMENT))
+                .offerTo(consumer, new Identifier(getRecipeName(ModItems.VORTEX_BOOTS)));
+
+
+        SmithingTransformRecipeJsonBuilder.create(
+                Ingredient.ofItems(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE),
+                Ingredient.ofItems(ModItems.LUMINITE_AXE),
+                Ingredient.ofItems(ModItems.VORTEX_FRAGMENT),
+                RecipeCategory.MISC,
+                ModItems.VORTEX_AXE
+        ).criterion(hasItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE))
+                .criterion(hasItem(ModItems.LUMINITE_AXE), conditionsFromItem(ModItems.LUMINITE_AXE))
+                .criterion(hasItem(ModItems.VORTEX_FRAGMENT), conditionsFromItem(ModItems.VORTEX_FRAGMENT))
+                .offerTo(consumer, new Identifier(getRecipeName(ModItems.VORTEX_AXE)));
+
+        SmithingTransformRecipeJsonBuilder.create(
+                Ingredient.ofItems(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE),
+                Ingredient.ofItems(ModItems.LUMINITE_BOW),
+                Ingredient.ofItems(ModItems.VORTEX_FRAGMENT),
+                RecipeCategory.MISC,
+                ModItems.VORTEX_BOW
+        ).criterion(hasItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE))
+                .criterion(hasItem(ModItems.LUMINITE_BOW), conditionsFromItem(ModItems.LUMINITE_BOW))
+                .criterion(hasItem(ModItems.VORTEX_FRAGMENT), conditionsFromItem(ModItems.VORTEX_FRAGMENT ))
+                .offerTo(consumer, new Identifier(getRecipeName(ModItems.VORTEX_BOW)));
+
+        SmithingTransformRecipeJsonBuilder.create(
+                Ingredient.ofItems(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE),
+                Ingredient.ofItems(ModItems.LUMINITE_SHOVEL),
+                Ingredient.ofItems(ModItems.VORTEX_FRAGMENT),
+                RecipeCategory.MISC,
+                ModItems.VORTEX_SHOVEL
+        ).criterion(hasItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE))
+                .criterion(hasItem(ModItems.LUMINITE_SHOVEL), conditionsFromItem(ModItems.LUMINITE_SHOVEL))
+                .criterion(hasItem(ModItems.VORTEX_FRAGMENT), conditionsFromItem(ModItems.VORTEX_FRAGMENT))
+                .offerTo(consumer, new Identifier(getRecipeName(ModItems.VORTEX_SHOVEL)));
+
+        SmithingTransformRecipeJsonBuilder.create(
+                Ingredient.ofItems(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE),
+                Ingredient.ofItems(ModItems.LUMINITE_PICKAXE),
+                Ingredient.ofItems(ModItems.VORTEX_FRAGMENT),
+                RecipeCategory.MISC,
+                ModItems.VORTEX_PICKAXE
+        ).criterion(hasItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE))
+                .criterion(hasItem(ModItems.LUMINITE_PICKAXE), conditionsFromItem(ModItems.LUMINITE_PICKAXE))
+                .criterion(hasItem(ModItems.VORTEX_FRAGMENT), conditionsFromItem(ModItems.VORTEX_FRAGMENT))
+                .offerTo(consumer, new Identifier(getRecipeName(ModItems.VORTEX_PICKAXE)));
+
+        SmithingTransformRecipeJsonBuilder.create(
+                Ingredient.ofItems(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE),
+                Ingredient.ofItems(ModItems.LUMINITE_HOE),
+                Ingredient.ofItems(ModItems.VORTEX_FRAGMENT),
+                RecipeCategory.MISC,
+                ModItems.VORTEX_HOE
+        ).criterion(hasItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.LUMINITE_UPGRADE_SMITHING_TEMPLATE))
+                .criterion(hasItem(ModItems.LUMINITE_HOE), conditionsFromItem(ModItems.LUMINITE_HOE))
+                .criterion(hasItem(ModItems.VORTEX_FRAGMENT), conditionsFromItem(ModItems.VORTEX_FRAGMENT))
+                .offerTo(consumer, new Identifier(getRecipeName(ModItems.VORTEX_HOE)));
     }
 }

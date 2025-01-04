@@ -17,7 +17,9 @@ public enum ModArmorMaterials implements ArmorMaterial {
     SOLAR("solar", 50, new int[] {3, 8, 6, 3}, 10,
             SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 4.5f, 0.5f, () -> Ingredient.ofItems(ModItems.LUMINITE_INGOT)),
     NEBULA("nebula", 45, new int[] {3, 6, 8, 3}, 20,
-            SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,  4.0f, 0.2f, () -> Ingredient.ofItems(ModItems.LUMINITE_INGOT))
+            SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,  4.0f, 0.2f, () -> Ingredient.ofItems(ModItems.LUMINITE_INGOT)),
+    VORTEX("vortex", 47, new int[] {3, 6, 8, 3}, 15,
+            SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 4.2f, 0.2f, () -> Ingredient.ofItems(ModItems.LUMINITE_INGOT))
     ;
 
     private final String name;

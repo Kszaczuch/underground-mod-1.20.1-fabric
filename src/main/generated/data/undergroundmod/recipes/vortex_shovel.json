@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "undergroundmod:vortex_fragment"
+  },
+  "base": {
+    "item": "undergroundmod:luminite_shovel"
+  },
+  "result": {
+    "item": "undergroundmod:vortex_shovel"
+  },
+  "template": {
+    "item": "undergroundmod:luminite_upgrade_smithing_template"
+  }
+}

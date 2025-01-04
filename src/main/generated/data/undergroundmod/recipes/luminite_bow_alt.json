@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "minecraft:string"
+    },
+    "S": {
+      "item": "undergroundmod:luminite_ingot"
+    }
+  },
+  "pattern": [
+    "RS ",
+    "R S",
+    "RS "
+  ],
+  "result": {
+    "item": "undergroundmod:luminite_bow"
+  },
+  "show_notification": true
+}

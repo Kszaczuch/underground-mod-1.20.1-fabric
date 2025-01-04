@@ -32,6 +32,16 @@ public class ModItemGroups {
                         entries.add(ModItems.NEBULA_FRAGMENT);
                         entries.add(ModItems.VORTEX_FRAGMENT);
                         entries.add(ModBlocks.BLUE_MUSHROOM);
+                        entries.add(ModItems.LUMINITE_PICKAXE);
+                        entries.add(ModItems.LUMINITE_SHOVEL);
+                        entries.add(ModItems.LUMINITE_AXE);
+                        entries.add(ModItems.LUMINITE_BOW);
+                        entries.add(ModItems.LUMINITE_HOE);
+                        entries.add(ModItems.LUMINITE_SWORD);
+                        entries.add(ModItems.LUMINITE_HELMET);
+                        entries.add(ModItems.LUMINITE_CHESTPLATE);
+                        entries.add(ModItems.LUMINITE_LEGGINGS);
+                        entries.add(ModItems.LUMINITE_BOOTS);
 
                     }).build());
 
@@ -62,10 +72,6 @@ public class ModItemGroups {
                         entries.add(ModItems.SHROOMITE_SHOVEL);
                         entries.add(ModItems.SHROOMITE_AXE);
                         entries.add(ModItems.SHROOMITE_HOE);
-                        entries.add(ModItems.LUMINITE_PICKAXE);
-                        entries.add(ModItems.LUMINITE_SHOVEL);
-                        entries.add(ModItems.LUMINITE_AXE);
-                        entries.add(ModItems.LUMINITE_HOE);
                         entries.add(ModItems.SOLAR_PICKAXE);
                         entries.add(ModItems.SOLAR_SHOVEL);
                         entries.add(ModItems.SOLAR_AXE);
@@ -74,6 +80,10 @@ public class ModItemGroups {
                         entries.add(ModItems.NEBULA_SHOVEL);
                         entries.add(ModItems.NEBULA_AXE);
                         entries.add(ModItems.NEBULA_HOE);
+                        entries.add(ModItems.VORTEX_PICKAXE);
+                        entries.add(ModItems.VORTEX_SHOVEL);
+                        entries.add(ModItems.VORTEX_AXE);
+                        entries.add(ModItems.VORTEX_HOE);
 
                     })).build());
 
@@ -94,12 +104,6 @@ public class ModItemGroups {
                         entries.add(ModItems.SHROOMITE_CHESTPLATE);
                         entries.add(ModItems.SHROOMITE_LEGGINGS);
                         entries.add(ModItems.SHROOMITE_BOOTS);
-                        entries.add(ModItems.LUMINITE_SWORD);
-                        entries.add(ModItems.LUMINITE_AXE);
-                        entries.add(ModItems.LUMINITE_HELMET);
-                        entries.add(ModItems.LUMINITE_CHESTPLATE);
-                        entries.add(ModItems.LUMINITE_LEGGINGS);
-                        entries.add(ModItems.LUMINITE_BOOTS);
                         entries.add(ModItems.SOLAR_SWORD);
                         entries.add(ModItems.SOLAR_AXE);
                         entries.add(ModItems.SOLAR_HELMET);
@@ -112,6 +116,12 @@ public class ModItemGroups {
                         entries.add(ModItems.NEBULA_CHESTPLATE);
                         entries.add(ModItems.NEBULA_LEGGINGS);
                         entries.add(ModItems.NEBULA_BOOTS);
+                        entries.add(ModItems.VORTEX_BOW);
+                        entries.add(ModItems.VORTEX_AXE);
+                        entries.add(ModItems.VORTEX_HELMET);
+                        entries.add(ModItems.VORTEX_CHESTPLATE);
+                        entries.add(ModItems.VORTEX_LEGGINGS);
+                        entries.add(ModItems.VORTEX_BOOTS);
 
 
                     })).build());
